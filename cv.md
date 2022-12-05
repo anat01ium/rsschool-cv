@@ -1,3 +1,5 @@
+![Avatar](/img/avatar.png)
+
 # Anatoly Sizyakin
 _Frontend Developer_
 ## ✉ Contacts
