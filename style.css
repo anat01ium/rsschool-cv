@@ -14,21 +14,30 @@ a {
   text-decoration: none;
 }
 
+.container {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
 .nav-list {
   display: flex;
   justify-content: flex-end;
-  align-items: center;
   list-style: none;
 }
 
 .nav-item {
   padding-left: 20px;
   font-weight: bold;
-  text-transform: uppercase;
+}
+
+.footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .footer-rss-link {
-  display: inline-block;
+  display: inline-flex;
   width: 80px;
   height: 30px;
   background: url("./assets/svg/rs_school_js.svg") no-repeat center;
