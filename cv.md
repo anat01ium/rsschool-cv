@@ -1,4 +1,4 @@
-![Avatar](/img/avatar.png)
+![Avatar](./assets/img/avatar.png)
 
 # Anatoly Sizyakin
 _Frontend Developer_
