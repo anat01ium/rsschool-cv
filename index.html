@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Anatoly Sizyakin &bull; Frontend Developer</title>
+
+  <link rel="icon" type="image/png" href="./assets/ico/favicon.png">
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a class="nav-link" href="#contacts">Contacts</a></li>
+          <li class="nav-item"><a class="nav-link" href="#summary">Summary</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#code">Code</a></li>
+          <li class="nav-item"><a class="nav-link" href="#work">Work</a></li>
+          <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+          <li class="nav-item"><a class="nav-link" href="#languages">Languages</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main">
+    <div class="container">
+      <section class="section" id="about">
+        <img src="./assets/img/avatar.png" alt="Avatar">
+        <h1 class="about-title">Anatoly Sizyakin</h1>
+        <p class="about-desc">Frontend Developer</p>
+      </section>
+
+      <section class="section" id="contacts">
+        <h2 class="section-title">Contacts</h2>
+        <ul class="contacts-list">
+          <li class="contacts-item">E-mail: <a class="contacts-link" href="mailto:rx.anat01ium@gmail.com">rx.anat01ium@gmail.com</a></li>
+          <li class="contacts-item">Telegram: <a class="contacts-link" href="https://t.me/anat01ium">@anat01ium</a></li>
+          <li class="contacts-item">Discord: <a class="contacts-link" href="https://discord.com/users/313319068138602508">Anatoly Sizyakin (@anat01ium)</a></li>
+        </ul>
+      </section>
+
+      <section class="section" id="summary">
+        <h2 class="section-title">Summary</h2>
+        <p>My interest in the IT industry appeared instantly when I first saw a personal computer during school time in the 90s. There was no doubt that I would connect my life with computers and after graduation I entered the university to become a programmer.</p>
+        <p>After receiving higher education, my work has always been related to IT, although it did not concern programming. But, throughout the whole time, the thought that I always wanted to write code did not leave me.</p>
+        <p>Thanks to Internet sources and educational online platforms, I began to study frontend development. Some time after I started studying, I realized that my dream of writing code and working as a programmer is still burning in me.</p>
+      </section>
+
+      <section class="section" id="skills">
+        <h2 class="section-title">Skills</h2>
+        <ul class="skills-list">
+          <li class="skills-item">HTML</li>
+          <li class="skills-item">CSS</li>
+          <li class="skills-item">JavaScript</li>
+          <li class="skills-item">ReactJS</li>
+          <li class="skills-item">Git</li>
+          <li class="skills-item">VS Code, Vim</li>
+          <li class="skills-item">Figma, Photoshop</li>
+          <li class="skills-item">GNU/Linux</li>
+        </ul>
+      </section>
+
+      <section class="section" id="code">
+        <h2 class="section-title">Code</h2>
+
+        <h3 class="code-title">Task:</h3>
+        <p class="code-task">Implement the function which takes an array containing the names of people that like an item. It must return the display text as shown in the examples:</p>
+        <pre><code class="code-task-result">[]                                -->  "no one likes this"
+["Peter"]                         -->  "Peter likes this"
+["Jacob", "Alex"]                 -->  "Jacob and Alex like this"
+["Max", "John", "Mark"]           -->  "Max, John and Mark like this"
+["Alex", "Jacob", "Mark", "Max"]  -->  "Alex, Jacob and 2 others like this"</code></pre>
+        <p class="task-note">For 4 or more names, the number in "and 2 others" simply increases.</p>
+
+        <h3 class="code-title">Solution:</h3>
+        <pre><code class="code-solution">function likes(names) {
+  switch(names.length) {
+    case 0:  return `no one likes this`;
+    case 1:  return `${names[0]} likes this`;
+    case 2:  return `${names[0]} and ${names[1]} like this`;
+    case 3:  return `${names[0]}, ${names[1]} and ${names[2]} like this`;
+    default: return `${names[0]}, ${names[1]} and ${names.length - 2} others like this`;
+  }
+}</code></pre>
+      </section>
+
+      <section class="section" id="work">
+        <h2 class="section-title">Work</h2>
+        <ul class="work-list">
+          <li class="work-item">2003-2008 | «Rusich» OOO
+            <ul class="post-list">
+              <li class="post-item">Computer Operator</li>
+            </ul>
+          </li>
+          <li class="work-item">2009-2011 | OOO «Arbalet»
+            <ul class="post-list">
+              <li class="post-item">IT Specialist</li>
+            </ul>
+          </li>
+          <li class="work-item">2011-2016 | «Polyus-M» OOO
+            <ul class="post-list">
+              <li class="post-item">Website Administrator</li>
+            </ul>
+          </li>
+          <li class="work-item">2016-.... | Self-Employed
+            <ul class="post-list">
+              <li class="post-item">Maintenance and repair of PCs and laptops</li>
+              <li class="post-item">Smartphone repair</li>
+              <li class="post-item">Maintenance of payment terminals</li>
+              <li class="post-item">Installation, configuration of network equipment</li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+
+      <section class="section" id="education">
+        <h2 class="section-title">Education</h2>
+        <ul class="education-list">
+          <li class="education-item">1999-2004 | Moscow Goverment Social Univercity
+            <ul class="course-list">
+              <li class="course-item">Automated information processing and management systems
+                <ul class="profession-list">
+                  <li class="profession-item">Engineer</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li class="education-item">2019-2020 | GeekBrains
+            <ul class="course-list">
+              <li class="course-item">Web Development
+                <ul class="profession-list">
+                  <li class="profession-item">Frontend Developer</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li class="education-item">2020 | Zar Zakharov JavaScript Marathon</li>
+          <li class="education-item">2021 | Zar Zakharov ReactJS Marathon</li>
+        </ul>
+      </section>
+
+      <section class="section" id="languages">
+        <h2 class="section-title">Languages</h2>
+        <ul class="languages-list">
+          <li class="languages-item">Russian: Native</li>
+          <li class="languages-item">English: <a class="languages-link" href="https://www.efset.org/cert/3jqk8w">EF SET English Certificate 47/100 (B1 Intermediate)</a></li>
+        </ul>
+      </section>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-copy">
+        &copy; 2022 <a class="footer-github" href="https://github.com/anat01ium">anat01ium</a>
+      </div>
+      <a class="footer-rss-link" href="https://rs.school/js/"></a>
+    </div>
+  </footer>
+</body>
+
+</html>
