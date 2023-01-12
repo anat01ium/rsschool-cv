@@ -5,7 +5,7 @@ _Frontend Developer_
 ## ✉ Contacts
 - E-mail: [_rx.anat01ium@gmail.com_](mailto:rx.anat01ium@gmail.com)
 - Telegram: [_@anat01ium_](https://t.me/anat01ium)
-- Discord: [_Anatoly Sizyakin (@anat01ium)_](https://discord.com/users/313319068138602508)
+- Discord: [_anat01ium#5405_](https://discord.com/users/313319068138602508)
 
 ## 👤 About
 _My interest in the IT industry appeared instantly when I first saw a personal computer during school time in the 90s.
