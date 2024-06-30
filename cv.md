@@ -21,3 +21,6 @@ _Frontend Developer_
 </div>
 </div>
 </div>
+
+## 👤 About
+_Interested in Web development._
