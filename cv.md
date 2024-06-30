@@ -25,6 +25,10 @@ _Frontend Developer_
 ## 👤 About
 _Interested in Web development._
 
+## 🌍 Languages
+- Russian: _Native_
+- English: [_EF SET English Certificate 47/100 (B1 Intermediate)_](https://www.efset.org/cert/3jqk8w)
+
 ## 💪 Skills
 - HTML
 - CSS
@@ -54,10 +58,6 @@ _Interested in Web development._
 - _Smartphone repair_
 - _Maintenance of payment terminals_
 - _Installation, configuration of network equipment_
-
-## 🌍 Languages
-- Russian: _Native_
-- English: [_EF SET English Certificate 47/100 (B1 Intermediate)_](https://www.efset.org/cert/3jqk8w)
 
 ## 📝 Code
 #### Task:
