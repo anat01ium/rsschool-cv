@@ -33,3 +33,8 @@ _Interested in Web development._
 - VS Code, (Neo)Vim
 - Figma, Photoshop
 - GNU/Linux
+
+## 🎓 Education
+##### `1999-2004` \| Moscow Goverment Social Univercity
+- Automated information processing and management systems
+  - _Engineer_
