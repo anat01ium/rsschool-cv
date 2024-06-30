@@ -24,3 +24,12 @@ _Frontend Developer_
 
 ## 👤 About
 _Interested in Web development._
+
+## 💪 Skills
+- HTML
+- CSS
+- JavaScript
+- Git
+- VS Code, (Neo)Vim
+- Figma, Photoshop
+- GNU/Linux
