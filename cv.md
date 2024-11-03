@@ -2,7 +2,7 @@
 
 ![Profile picture](./assets/img/profile.png)
 # Anatoly Sizyakin
-_~ Frontend Developer ~_
+~ _Frontend Developer_ ~
 </div>
 
 ### ✉️ Contacts
@@ -27,13 +27,13 @@ _Interested in Web development._
 - Responsive Design, Flexbox, CSS Grid
 - Sass
 - Gulp
-- GNU/Linux
 
 ##### Tools:
 - Git, GitHub, SSH
 - Chrome DevTools
 - VS Code, (Neo)Vim
 - Figma, Gimp
+- GNU/Linux
 
 ### 🎓 Education
 ##### `1999-2004` \| Moscow Goverment Social Univercity
