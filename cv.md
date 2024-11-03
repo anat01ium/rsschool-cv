@@ -1,9 +1,6 @@
-<div align="center">
-
 ![Profile picture](./assets/img/profile.png)
 # Anatoly Sizyakin
 ~ _Frontend Developer_ ~
-</div>
 
 ### ✉️ Contacts
 - E-mail: [_rx.anat01ium@gmail.com_](mailto:rx.anat01ium@gmail.com)
@@ -17,23 +14,23 @@ _Interested in Web development._
 - Russian: _Native_
 - English: _B1 Intermediate_ [_(EF SET English Certificate 47/100)_](https://www.efset.org/cert/3jqk8w)
 
-### 💪 Skills
+### 💪 Tech Skills
 ##### Languages:
-- HTML5
-- CSS3
-- JavaScript (ES6+)
+- _HTML5_
+- _CSS3_
+- _JavaScript (ES6+)_
 
 ##### Key Skills:
-- Responsive Design, Flexbox, CSS Grid
-- Sass
-- Gulp
+- _Responsive Design, Flexbox, CSS Grid_
+- _Sass_
+- _Gulp_
 
 ##### Tools:
-- Git, GitHub, SSH
-- Chrome DevTools
-- VS Code, (Neo)Vim
-- Figma, Gimp
-- GNU/Linux
+- _Git, GitHub, SSH_
+- _Chrome DevTools_
+- _VS Code, (Neo)Vim_
+- _Figma, Gimp_
+- _GNU/Linux_
 
 ### 🎓 Education
 ##### `1999-2004` \| Moscow Goverment Social Univercity
