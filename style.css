@@ -1,0 +1,64 @@
+* {
+	box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: sans-serif;
+	line-height: 1.5;
+	background-color: #eeeeee;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+p, li {
+	font-style: italic;
+}
+
+.container {
+	max-width: 768px;
+	margin: 0 auto;
+}
+
+header li {
+	font-weight: bold;
+	font-style: normal;
+	text-transform: uppercase;
+}
+
+.nav {
+	display: flex;
+	justify-content: center;
+	gap: 2%;
+	list-style: none;
+	padding: 0;
+}
+
+#about {
+	text-align: center;
+}
+
+footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+footer p {
+	font-style: normal;
+}
+
+.rss-logo {
+	display: block;
+	width: 80px;
+	height: 30px;
+}
