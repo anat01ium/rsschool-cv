@@ -1,3 +1,7 @@
+:root {
+	--shadow-color: rgba(0, 0, 0, 0.8);
+}
+
 * {
 	box-sizing: border-box;
 }
@@ -45,6 +49,13 @@ header li {
 
 #about {
 	text-align: center;
+}
+
+.avatar {
+	width: 300px;
+	margin: 20px;
+	border-radius: 50%;
+	box-shadow: 0px 10px 20px var(--shadow-color);
 }
 
 footer {
