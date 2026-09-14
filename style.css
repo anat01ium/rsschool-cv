@@ -86,6 +86,13 @@ header li {
 	box-shadow: 0px 10px 20px var(--shadow-color);
 }
 
+#education,
+#work {
+	& span {
+		color: var(--text-primary);
+	}
+}
+
 footer {
 	display: flex;
 	justify-content: space-between;
