@@ -100,4 +100,14 @@ footer p {
 	display: block;
 	width: 80px;
 	height: 30px;
+	fill: var(--text-primary);
+	transition: fill 250ms;
+
+	&:hover {
+		fill: var(--link-color);
+	}
+}
+
+a:has(.rss-logo):hover::before {
+	width: 0;
 }
